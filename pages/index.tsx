@@ -207,7 +207,7 @@ export default function Home(): JSX.Element {
 			</App>
 			<Footer>
 				<a
-					href="https://github.com/walbo/font-size-clamp"
+					href="https://github.com/ThaiDuyKhang/font-size-clamp-generator"
 					aria-label="Contribute"
 				>
 					<svg
