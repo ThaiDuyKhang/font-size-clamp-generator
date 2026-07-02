@@ -6,6 +6,12 @@ Tuy nhiên, phiên bản này được mở rộng với một tính năng quan 
 
 ---
 
+## 🌐 Trải nghiệm trực tuyến (Live Demo)
+
+Sử dụng ngay phiên bản đã được deploy tại: **[https://clamp.thaiduykhang.com/](https://clamp.thaiduykhang.com/)**
+
+---
+
 ## 🌟 Tính năng nổi bật
 
 - **Tạo hàm `clamp()` tự động:** Nhập vào kích thước tối thiểu, tối đa và công cụ sẽ tự động tính toán viewport width và sinh ra mã CSS `clamp()` chính xác.
