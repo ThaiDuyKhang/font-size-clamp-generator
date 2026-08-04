@@ -21,7 +21,7 @@ import { hasSameKeys } from '@utils/objects';
 const App = styled.main`
 	align-items: center;
 	display: flex;
-	min-height: calc(100vh - 4rem);
+	min-height: calc(100vh - 6rem);
 	padding: 2rem 2rem 1rem;
 	text-align: center;
 	width: 100%;
@@ -30,8 +30,10 @@ const App = styled.main`
 const Footer = styled.footer`
 	height: 4rem;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	gap: 0.5rem;
 
 	& a {
 		color: var(--foreground100);
@@ -62,10 +64,10 @@ const Settings = styled.div`
 const localStorageKey = 'clampFontSizeConfig';
 const initalConfig = {
 	root: '16',
-	minWidth: '500px',
-	maxWidth: '900px',
-	minFontSize: '16px',
-	maxFontSize: '48px',
+	minWidth: '414px',
+	maxWidth: '1920px',
+	minFontSize: '1rem',
+	maxFontSize: '2rem',
 	outputUnit: 'rem' as OutputUnit,
 };
 
@@ -208,7 +210,7 @@ export default function Home(): JSX.Element {
 			<Footer>
 				<a
 					href="https://github.com/ThaiDuyKhang/font-size-clamp-generator"
-					aria-label="Contribute"
+					aria-label="Contribute" target='_blank'
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -222,6 +224,11 @@ export default function Home(): JSX.Element {
 						/>
 					</svg>
 				</a>
+				<p style={{ marginBlockStart: 0, marginBlockEnd: 0 }}>
+					Recreated &amp; enhanced by{" "}
+					<a href="https://thaiduykhang.com" target='_blank' style={{ color: '#fff' }}>ThaiDuyKhang</a>
+				</p>
+				<p style={{ marginBlockStart: 0, marginBlockEnd: 0 }}>Inspired from "walbo/font-size-clamp"</p>
 			</Footer>
 		</>
 	);

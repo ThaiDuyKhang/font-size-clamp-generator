@@ -38,6 +38,7 @@ export default function GlobalStyle(): JSX.Element {
 					font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
 						Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue',
 						sans-serif;
+					padding-bottom:2rem;
 				}
 
 				input::-webkit-outer-spin-button,
