@@ -322,19 +322,6 @@ export default function Typography(): JSX.Element {
             />
           </FormGroup>
 
-          <FormGroup>
-            <Label>Scale type</Label>
-            <Select disabled>
-              <option>T-shirt</option>
-            </Select>
-          </FormGroup>
-
-          <FormGroup>
-            <Label>Baseline step</Label>
-            <Select disabled>
-              <option>m</option>
-            </Select>
-          </FormGroup>
 
           <div style={{ marginTop: '1rem' }}>
             <SectionTitle>Minimum (Mobile)</SectionTitle>
