@@ -54,6 +54,11 @@ export default function GlobalStyle(): JSX.Element {
 				svg {
 					fill: currentColor;
 				}
+
+				.lucide {
+					fill: none;
+					stroke: currentColor;
+				}
 			`}
 		/>
 	);

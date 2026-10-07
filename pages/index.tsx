@@ -21,7 +21,7 @@ import { hasSameKeys } from '@utils/objects';
 const App = styled.main`
 	align-items: center;
 	display: flex;
-	min-height: calc(100vh - 6rem);
+	min-height: calc(100vh - 10rem);
 	padding: 2rem 2rem 1rem;
 	text-align: center;
 	width: 100%;
@@ -210,7 +210,7 @@ export default function Home(): JSX.Element {
 			<Footer>
 				<a
 					href="https://github.com/ThaiDuyKhang/font-size-clamp-generator"
-					aria-label="Contribute" target='_blank'
+					aria-label="Contribute" target='_blank' rel='noreferrer'
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -226,9 +226,9 @@ export default function Home(): JSX.Element {
 				</a>
 				<p style={{ marginBlockStart: 0, marginBlockEnd: 0 }}>
 					Recreated &amp; enhanced by{" "}
-					<a href="https://thaiduykhang.com" target='_blank' style={{ color: '#fff' }}>ThaiDuyKhang</a>
+					<a href="https://thaiduykhang.com" target='_blank' rel='noreferrer' style={{ color: '#fff' }}>ThaiDuyKhang</a>
 				</p>
-				<p style={{ marginBlockStart: 0, marginBlockEnd: 0 }}>Inspired from "walbo/font-size-clamp"</p>
+				<p style={{ marginBlockStart: 0, marginBlockEnd: 0 }}>Inspired from &quot;walbo/font-size-clamp&quot;</p>
 			</Footer>
 		</>
 	);

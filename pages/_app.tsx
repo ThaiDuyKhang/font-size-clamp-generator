@@ -10,6 +10,7 @@ import Script from 'next/script';
  */
 import { baseTheme as theme } from '@layout/theme';
 import GlobalStyle from '@layout/global-style';
+import Header from '@components/header';
 
 export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 	return (
@@ -35,6 +36,7 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 			)}
 			<ThemeProvider theme={theme}>
 				<GlobalStyle />
+				<Header />
 				<Component {...pageProps} />
 			</ThemeProvider>
 		</>
